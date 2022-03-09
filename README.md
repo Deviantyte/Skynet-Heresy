@@ -1,19 +1,8 @@
-# Dark Heresy 2E - Continued
+# Dark Heresies
 
-An **UNOFFICIAL** system for playing Dark Heresy 2E on [Foundry VTT](https://foundryvtt.com/).
+An **UNOFFICIAL** system for playing a personal hack of the Dark Heresy systems by Fantasy Flight Games on [Foundry VTT](https://foundryvtt.com/).
 
-It provides support for **character sheets only**, game content should be drawn from official source books.
-
-The project is being continued under the GPL-3.0 License after the original author deleted their project.
-
-## Install
-1. Go to the setup page and choose **Game Systems**.
-2. Click the **Install System** button, and paste in this [manifest link](https://raw.githubusercontent.com/moo-man/DarkHeresy2E-FoundryVTT/master/system.json)
-3. Create a Game World using the Dark Heresy system.
-
-## Preview
-![Acolyte 1](https://raw.githubusercontent.com/moo-man/DarkHeresy2E-FoundryVTT/master/asset/preview/acolyte1.jpg)  
-![Acolyte 2](https://raw.githubusercontent.com/moo-man/DarkHeresy2E-FoundryVTT/master/asset/preview/acolyte2.jpg)  
+This is meant to be personal-use only in games that I run in Foundry.
 
 ## Related Website
 - https://foundryvtt.com/
