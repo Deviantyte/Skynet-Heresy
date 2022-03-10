@@ -93,10 +93,7 @@
         "skills": {
           "acrobatics": {
             "label": "SKILL.ACROBATICS",
-            "characteristics": [
-              "Ag",
-              "S"
-            ],
+            "characteristics": ["Ag","S"],
             "advance": -20,
 			"isAdvancedSkill": true,
             "isSpecialist": false,
@@ -105,34 +102,16 @@
           },
           "awareness": {
             "label": "SKILL.AWARENESS",
-            "characteristics": [
-              "Per",
-              "Fel",
-              "Int"
-            ],
+            "characteristics": ["Per","Fel"],
             "advance": -20,
 			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
-		  "barter": {
-			  "label": "SKILL.BARTER",
-			  "characteristics": [
-				"Int",
-				"Fel"
-			],
-			"advance": -20,
-			"isAdvancedSkill": false,
-			"isSpecialist": false,
-			"specialities": {},
-			"cost": 0
-		  },
 		  "blather": {
-			  "label": "SKILL.BLATHER",
-			  "characteristics": [
-				"Fel"
-			],
+			"label": "SKILL.BLATHER",
+			"characteristics": ["Fel"],
 			"advance": -20,
 			"isAdvancedSkill": true,
 			"isSpecialist": false,
@@ -140,10 +119,8 @@
 			"cost": 0
 		  },
 		  "carouse": {
-			  "label": "SKILL.CAROUSE",
-			  "characteristics": [
-			  "T"
-			],
+			"label": "SKILL.CAROUSE",
+			"characteristics": ["T"],
 			"advance": -20,
 			"isAdvancedSkill": false,
 			"isSpecialist": false,
@@ -152,10 +129,7 @@
 		  },
           "charm": {
             "label": "SKILL.CHARM",
-            "characteristics": [
-              "Fel",
-              "Inf"
-            ],
+            "characteristics": ["Fel","Inf"],
             "advance": -20,
 			"isAdvancedSkill": false,
             "isSpecialist": false,
@@ -163,57 +137,17 @@
             "cost": 0
           },
 		  "chem-use": {
-			  "label": "SKILL.CHEM-USE",
-			  "characteristics": [
-				"Int"
-			],
+			"label": "SKILL.CHEM-USE",
+			"characteristics": ["Int","Per"],
 			"advance": -20
 			"isAdvancedSkill": true,
 			"isSpecialist": false,
 			"specialities": {},
 			"cost": 0
 		  },
-		  "ciphers": {
-			  "label": "SKILL.CIPHERS",
-			  "characteristics": [
-			  "Int"
-			],
-			"advance": -20,
-			"isAdvancedSkill": true,
-			"isSpecialist": true,
-			"specialities": {
-				"acolyte": {
-					"label": "Acolyte",
-					"advance": -20,
-					"cost": 0
-				},
-				"warCant": {
-					"label": "War Cant",
-					"advance": -20,
-					"cost": 0
-				},
-				"secretSociety": {
-					"label": "Secret Society",
-					"advance": -20,
-					"cost": 0
-				},
-				"occult": {
-					"label": "Occult",
-					"advance": -20,
-					"cost": 0
-				},
-				"underworld": {
-					"label": "Underworld",
-					"advance": -20,
-					"cost": 0
-				}
-			}
-		  },
 		  "climb": {
 			"label": "SKILL.CLIMB",
-			"characteristics": [
-			"S"
-			],
+			"characteristics": ["S","Ag"],
 			"advance": -20,
 			"isAdvancedSkill": false,
 			"isSpecialist": false,
@@ -222,69 +156,46 @@
 		  },
           "command": {
             "label": "SKILL.COMMAND",
-            "characteristics": [
-              "Fel",
-              "Int",
-              "S",
-              "WP"
-            ],
+            "characteristics": ["Fel","Int","S","WP"],
             "advance": -20,
 			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
+		  "commerce": {
+			"label": "SKILL.COMMERCE",
+			"characteristics": ["Int","Fel"],
+			"advance": -20,
+			"isAdvancedSkill": false,
+			"isSpecialist": false,
+			"specialities": {},
+			"cost": 0
+		  },
           "commonLore": {
             "label": "SKILL.COMMON_LORE",
-            "characteristics": [
-              "Int",
-              "Fel"
-            ],
+            "characteristics": ["Int"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": true,
             "specialities": {
-              "adeptaSororitas": {
-                "label": "Adepta Sororitas",
-                "advance": -20,
-                "cost": 0
-              },
-              "adeptusArbites": {
-                "label": "Adeptus Arbites",
-                "advance": -20,
-                "cost": 0
-              },
-              "adeptusAstartes": {
-                "label": "Adeptus Astartes",
-                "advance": -20,
-                "cost": 0
-              },
-              "adeptusAstraTelepathica": {
-                "label": "Adeptus Astra Telepathica",
-                "advance": -20,
-                "cost": 0
-              },
-              "adeptusMechanicus": {
-                "label": "Adeptus Mechanicus",
-                "advance": -20,
-                "cost": 0
-              },
               "administratum": {
                 "label": "Administratum",
                 "advance": -20,
                 "cost": 0
               },
-              "askellonSector": {
-                "label": "Askellon Sector",
+              "arbites": {
+                "label": "Arbites",
                 "advance": -20,
                 "cost": 0
               },
-              "chartistCaptains": {
-                "label": "Chartist Captains",
+              "astartes": {
+                "label": "Astartes",
                 "advance": -20,
                 "cost": 0
               },
-              "collegiaTitanicu": {
-                "label": "Collegia Titanicu",
+              "astraTelepathica": {
+                "label": "Astra Telepathica",
                 "advance": -20,
                 "cost": 0
               },
@@ -313,13 +224,23 @@
                 "advance": -20,
                 "cost": 0
               },
+              "mechanicus": {
+                "label": "Mechanicus",
+                "advance": -20,
+                "cost": 0
+              },
+              "merchantVessels": {
+                "label": "Merchant Vessels",
+                "advance": -20,
+                "cost": 0
+              },
               "navigators": {
                 "label": "Navigators",
                 "advance": -20,
                 "cost": 0
               },
               "planetaryDefenceForces": {
-                "label": "Planetary Defence Forces",
+                "label": "PDF",
                 "advance": -20,
                 "cost": 0
               },
@@ -330,6 +251,11 @@
               },
               "scholaProgenium": {
                 "label": "Schola Progenium",
+                "advance": -20,
+                "cost": 0
+              },
+              "sororitas": {
+                "label": "Sororitas",
                 "advance": -20,
                 "cost": 0
               },
@@ -347,37 +273,32 @@
                 "label": "War",
                 "advance": -20,
                 "cost": 0
-              }
-            }
+              },
+            },
           },
           "deceive": {
             "label": "SKILL.DECEIVE",
-            "characteristics": [
-              "Fel",
-              "Int"
-            ],
+            "characteristics": ["Fel"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "dodge": {
             "label": "SKILL.DODGE",
-            "characteristics": [
-              "Ag"
-            ],
+            "characteristics": ["Ag"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "forbiddenLore": {
             "label": "SKILL.FORBIDDEN_LORE",
-            "characteristics": [
-              "Int",
-              "Fel"
-            ],
+            "characteristics": ["Int"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": true,
             "specialities": {
               "archaeotech": {
@@ -390,8 +311,8 @@
                 "advance": -20,
                 "cost": 0
               },
-              "criminalCartelsAndSmugglers": {
-                "label": "Criminal Cartels and Smugglers",
+              "criminalOrganizations": {
+                "label": "Criminal Organizations",
                 "advance": -20,
                 "cost": 0
               },
@@ -405,8 +326,8 @@
                 "advance": -20,
                 "cost": 0
               },
-              "theHorusHeresyAndTheLongWar": {
-                "label": "The Horus Heresy and the Long War",
+              "longWar": {
+                "label": "The Long War",
                 "advance": -20,
                 "cost": 0
               },
@@ -449,45 +370,45 @@
           },
           "inquiry": {
             "label": "SKILL.INQUIRY",
-            "characteristics": [
-              "Fel",
-              "Int",
-              "Per"
-            ],
+            "characteristics": ["Fel","Int","Per"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "interrogation": {
             "label": "SKILL.INTERROGATION",
-            "characteristics": [
-              "WP",
-              "Fel"
-            ],
+            "characteristics": ["WP","Fel"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "intimidate": {
             "label": "SKILL.INTIMIDATE",
-            "characteristics": [
-              "S",
-              "WP"
-            ],
+            "characteristics": ["S","WP"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
+		  "invocation": {
+			"label": "SKILL.INVOCATION",
+			"characteristics": ["WP"],
+			"advance": -20,
+			"isAdvancedSkill": true,
+			"isSpecialist": false,
+			"specialities": {},
+			"cost": 0
+		  },
           "linguistics": {
             "label": "SKILL.LINGUISTICS",
-            "characteristics": [
-              "Int",
-              "Fel"
-            ],
+            "characteristics": ["Int","Fel"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": true,
             "specialities": {
               "chapterRunes": {
@@ -520,8 +441,8 @@
                 "advance": -20,
                 "cost": 0
               },
-              "mercenary": {
-                "label": "Mercenary",
+              "mercenaryCant": {
+                "label": "Mercenary Cant",
                 "advance": -20,
                 "cost": 0
               },
@@ -555,38 +476,31 @@
                 "advance": -20,
                 "cost": 0
               }
-            }
+            },
           },
           "logic": {
             "label": "SKILL.LOGIC",
-            "characteristics": [
-              "Int",
-              "Ag"
-            ],
+            "characteristics": ["Int"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "medicae": {
             "label": "SKILL.MEDICAE",
-            "characteristics": [
-              "Int",
-              "Ag",
-              "Per"
-            ],
+            "characteristics": ["Int","Per"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "navigate": {
             "label": "SKILL.NAVIGATE",
-            "characteristics": [
-              "Int",
-              "Per"
-            ],
+            "characteristics": ["Int","Per"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": true,
             "specialities": {
               "surface": {
@@ -604,22 +518,25 @@
                 "advance": -20,
                 "cost": 0
               }
-            }
+            },
           },
           "operate": {
             "label": "SKILL.OPERATE",
-            "characteristics": [
-              "Ag",
-              "Int"
-            ],
+            "characteristics": ["Ag","Int"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": true,
             "specialities": {
-              "surface": {
-                "label": "Surface",
-                "advance": -20,
-                "cost": 0
-              },
+				"personal": {
+					"label": "Personal",
+					"advance": -20,
+					"cost": 0
+				},
+				"surface": {
+					"label": "Surface",
+					"advance": -20,
+					"cost": 0
+					},
               "aeronautica": {
                 "label": "Aeronautica",
                 "advance": -20,
@@ -630,36 +547,31 @@
                 "advance": -20,
                 "cost": 0
               }
-            }
+            },
           },
           "parry": {
             "label": "SKILL.PARRY",
-            "characteristics": [
-              "WS"
-            ],
+            "characteristics": ["WS"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "psyniscience": {
             "label": "SKILL.PSYNISCIENCE",
-            "characteristics": [
-              "Per",
-              "WP"
-            ],
+            "characteristics": ["Per","WP"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "scholasticLore": {
             "label": "SKILL.SCHOLASTIC_LORE",
-            "characteristics": [
-              "Int",
-              "Fel"
-            ],
+            "characteristics": ["Int"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": true,
             "specialities": {
               "astromancy": {
@@ -669,11 +581,6 @@
               },
               "beasts": {
                 "label": "Beasts",
-                "advance": -20,
-                "cost": 0
-              },
-              "bureaucracy": {
-                "label": "Bureaucracy",
                 "advance": -20,
                 "cost": 0
               },
@@ -731,79 +638,82 @@
           },
           "scrutiny": {
             "label": "SKILL.SCRUTINY",
-            "characteristics": [
-              "Per",
-              "Fel"
-            ],
+            "characteristics": ["Per","Fel"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "security": {
             "label": "SKILL.SECURITY",
-            "characteristics": [
-              "Int",
-              "Ag"
-            ],
+            "characteristics": ["Int","Ag"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "sleightOfHand": {
             "label": "SKILL.SLEIGHT_OF_HAND",
-            "characteristics": [
-              "Ag",
-              "Int"
-            ],
+            "characteristics": ["Ag","Int"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "stealth": {
             "label": "SKILL.STEALTH",
-            "characteristics": [
-              "Ag",
-              "Per"
-            ],
+            "characteristics": ["Ag","Per"],
             "advance": -20,
+			"isAdvancedSkill": false,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
           "survival": {
             "label": "SKILL.SURVIVAL",
-            "characteristics": [
-              "Per",
-              "Ag",
-              "Int"
-            ],
+            "characteristics": ["Per","Ag","Int"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": false,
             "specialities": {},
             "cost": 0
           },
+		  "swim": {
+			"label": "SKILL.SWIM",
+			"characteristics": ["S","T"],
+			"advance": -20,
+			"isAdvancedSkill": false,
+			"isSpecialist": false,
+			"specialities": {},
+			"cost": 0
+		  },
           "techUse": {
             "label": "SKILL.TECH_USE",
-            "characteristics": [
-              "Int",
-              "Ag"
-            ],
+            "characteristics": ["Int"],
             "advance": -20,
-            "isSpecialist": false,
-            "specialities": {},
-            "cost": 0
+			"isAdvancedSkill": true,
+            "isSpecialist": true,
+            "specialities": {
+				"hardware": {
+					"label": "Hardware",
+					"advance": -20,
+					"cost": 0
+				},
+				"software": {
+					"label": "Software",
+					"advance": -20,
+					"cost": 0
+				},
+			},
           },
           "trade": {
             "label": "SKILL.TRADE",
-            "characteristics": [
-              "Int",
-              "Ag",
-              "Fel"
-            ],
+            "characteristics": ["Int","Ag","Fel"],
             "advance": -20,
+			"isAdvancedSkill": true,
             "isSpecialist": true,
             "specialities": {
               "agri": {
@@ -816,8 +726,8 @@
                 "advance": -20,
                 "cost": 0
               },
-              "armourer": {
-                "label": "Armourer",
+              "armorer": {
+                "label": "Armorer",
                 "advance": -20,
                 "cost": 0
               },
@@ -831,6 +741,11 @@
                 "advance": -20,
                 "cost": 0
               },
+			  "copyist": {
+				"label": "Copyist",
+				"advance": -20,
+				"cost": 0
+			  },
               "cryptographer": {
                 "label": "Cryptographer",
                 "advance": -20,
@@ -891,19 +806,29 @@
                 "advance": -20,
                 "cost": 0
               },
+			  "tanner": {
+				"label": "Tanner",
+				"advance": -20,
+				"cost": 0
+			  },
               "technomat": {
                 "label": "Technomat",
                 "advance": -20,
                 "cost": 0
               },
+			  "valet": {
+				"label": "Valet",
+				"advance": -20,
+				"cost": 0
+			  },
               "voidfarer": {
                 "label": "Voidfarer",
                 "advance": -20,
                 "cost": 0
-              }
-            }
-          }
-        }
+              },
+            },
+          },
+        },
       },
       "initiative": {
         "initiative": {
