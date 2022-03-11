@@ -80,7 +80,7 @@
   "secondaryTokenAttribute": null,
   "url": "https://github.com/moo-man/DarkHeresy2E-FoundryVTT",
   "socket": true,
-  "manifest": "https://raw.githubusercontent.com/moo-man/DarkHeresy2E-FoundryVTT/master/system.json",
+  "manifest": "https://raw.githubusercontent.com/Deviantyte/Skynet-Heresy/main/system.json",
   "download": "https://github.com/moo-man/DarkHeresy2E-FoundryVTT/releases/download/3.0.4/dark-heresy.zip",
   "license": "LICENSE.txt"
 }
