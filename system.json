@@ -2,9 +2,9 @@
   "name": "skynet-heresy",
   "title": "Dark Heresy 2E",
   "description": "Innocence proves nothing",
-  "version": "3.0.4",
+  "version": "3.2.0",
   "minimumCoreVersion": "0.8.4",
-  "compatibleCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "9",
   "templateVersion": 2,
   "author": "JeansenVaars, Moo Man, fredthedeadhead, Perfectro",
   "scripts": [],
@@ -52,7 +52,7 @@
     {
       "name": "character-aptitudes",
       "label": "Character Aptitudes",
-      "system": "dark-heresy",
+      "system": "skynet-heresy",
       "path": "./packs/character/aptitudes.db",
       "entity": "Item"
     }
