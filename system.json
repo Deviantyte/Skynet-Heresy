@@ -1,5 +1,5 @@
 {
-  "name": "skynet-heresy",
+  "name": "dark-heresy",
   "title": "Dark Heresy 2E",
   "description": "Innocence proves nothing",
   "version": "3.2.0",
@@ -52,7 +52,7 @@
     {
       "name": "character-aptitudes",
       "label": "Character Aptitudes",
-      "system": "skynet-heresy",
+      "system": "dark-heresy",
       "path": "./packs/character/aptitudes.db",
       "entity": "Item"
     }
